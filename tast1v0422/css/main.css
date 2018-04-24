@@ -9,8 +9,9 @@ html{
 
 }
 .main div{
+    border-radius:6%;
     float: left;
     padding: 15.6%;
     margin: 1%;
-    background: orange;
+    background: #fea500;
 }
