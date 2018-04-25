@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="04d725e2-cd70-4c6e-bbe0-6295083b80d1" name="默认" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tast3v0424/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tast3v0424/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -142,7 +141,7 @@
       <workItem from="1524391375946" duration="7494000" />
       <workItem from="1524471306083" duration="6977000" />
       <workItem from="1524556883238" duration="4171000" />
-      <workItem from="1524620951240" duration="10332000" />
+      <workItem from="1524620951240" duration="10967000" />
     </task>
     <task id="LOCAL-00001" summary="0422">
       <created>1524391716772</created>
@@ -200,11 +199,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524624342794</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="042201">
+      <created>1524640849403</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524640849403</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30113000" />
+    <option name="totallyTimeSpent" value="30748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,7 +223,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="227" y="22" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35315713" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329849" />
