@@ -3,35 +3,41 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/rest.css"/>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<meta name="viewport" content="width=device-width,initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5, user-scalable=no" />
+        <link rel="stylesheet" type="text/css"  href="css/style.css ">
+        <link rel="stylesheet" type="text/css"  href="css/rest.css">
 	</head>
 	<body>
-        <!--顶部导航开始-->
-		<div class="topNav">
-			<a href=""><img src="img/back.png"/></a>
+    <!--顶部导航开始-->
+    <header>
+		<p>注册账号</p>
+		<nav class="navClose">关闭</nav>
+		<nav class="navRegister">注册</nav>
+    </header>
+	<!--顶部导航结束-->
+	
+	<!--输入区域开始-->
+	<form action="">
+		<div class="phoneNumber">
+			<span>
+				<img src="img/iphone.png"/>
+			</span>
+		<div class="line01"></div>
+		<div>
+			<input type="text" placeholder="请输入手机号" onfocus="javascript:if(this.placeholder=='请输入手机号')this.placeholder='';">
 		</div>
-		<!--顶部当行结束-->
-		
-		<!--logo区域开始-->
-		<div class="logo">
-			<img src="img/logo.png"/>
-			<p class="zhengWen">葡萄藤轻游戏专注于桌  游领域提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游 道具。</p>
-		</div>
-		<!--logo区域结束-->
-		
-		<!--论坛区域开始-->
-		<div class="forum">
-			<div class="forumLeft">
-				<a href="" class="qq"><img src="img/QQ.png"/></a>
-				<p>290560933</p>
+	</div>
+		<div class="passWord">
+			<span>
+				<img src="img/locked2.png"/>
+			</span>
+			<div class="line02"></div>
+			<div>
+				<input type="password" placeholder="请输入密码" onfocus="javascript:if(this.placeholder=='请输入密码')this.placeholder='';">
 			</div>
-			<div class="forumRright">
-				<a href="" class="weibo"><img src="img/weibo.png"/></a>
-				<p>BJPTTeng</p>
-			</div>
 		</div>
-		<!--论坛区域结束-->
+		<input type="submit" class="sure" value="登&nbsp;&nbsp;陆">
+	</form>
+	<!--输入区域结束-->
 	</body>
 </html>
