@@ -1,0 +1,146 @@
+html{
+    font-size: 16px;
+}
+body{
+    background-color: #eff0f4;
+}
+/*顶部导航开始*/
+header{
+    height: 5.5rem;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background: #5fc0cd;
+}
+header p{
+    font-size: 2.25rem;
+    line-height: 5.5rem;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+header .navClose{
+    position: absolute;
+    left: 2rem;
+    top: 1.25rem;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+header .navRegister{
+    position: absolute;
+    right: 2rem;
+    top: 1.25rem;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+/*顶部导航结束*/
+
+/*输入区域开始*/
+form{
+    position: relative;
+    top: 6.5rem;
+    background: #fea500;
+}
+/*手机号输入开始*/
+form .phoneNumber{
+    background: #FFFFFF;
+    position: absolute;
+    height: 6.25rem;
+    /*top: 6.5rem;*/
+    width: 100%;
+}
+form .phoneNumber span{
+    float: left;
+    height: 6.25rem;
+    width: 7.375rem;
+    background: #FFFFFF;
+
+}
+form .phoneNumber span img{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+form .phoneNumber .line01{
+    float: left;
+    margin-right: 1rem;
+    margin-top: 1.25rem;
+    height: 3.25rem;
+    width: 0.125rem;
+    background: #eaedee;
+}
+form .phoneNumber div{
+    overflow: hidden;
+    background: rebeccapurple;
+}
+form .phoneNumber div input{
+    height: 6.25rem;
+    width: 100%;
+    font-size: 2rem;
+}
+form .phoneNumber div input::placeholder{
+    color: #e1e5e7;
+}
+/*手机号输入结束*/
+/*密码区域开始*/
+form .passWord{
+    background: #FFFFFF;
+    position: absolute;
+    height: 6.25rem;
+    top: 7.125rem;
+    width: 100%;
+}
+form .passWord span{
+    float: left;
+    height: 6.25rem;
+    width: 7.375rem;
+    background: #FFFFFF;
+}
+form .passWord span img{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+form .passWord .line02{
+    float: left;
+    margin-right: 1rem;
+    margin-top: 1.25rem;
+    height: 3.25rem;
+    width: 0.125rem;
+    background: #eaedee;
+}
+form .passWord div{
+    overflow: hidden;
+    background: rebeccapurple;
+}
+form .passWord div input{
+    height: 6.25rem;
+    width: 100%;
+    font-size: 2rem;
+}
+form .passWord div input::placeholder{
+    color: #e1e5e7;
+}
+/*密码区域结束*/
+/*提交开始*/
+form .sure{
+    position: absolute;
+    top: 17.688rem;
+    height: 6.25rem;
+    width: 100%;
+    background: #5fc0cd;
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+/*提交结束*/
+form a{
+    position: absolute;
+    right: 2rem;
+    top: 25.125rem;
+    font-size: 2rem;
+    color: #5fc0cd;
+}
+/*输入区域结束*/
