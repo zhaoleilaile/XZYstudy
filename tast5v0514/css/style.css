@@ -81,89 +81,90 @@ header .back{
 /*banner区域结束*/
 
 /*内容区域开始*/
+/*公共样式开始*/
 .mainBox{
     height: auto;
-    width: 100%;
-    position: absolute;
-    top: 25.938rem;
-    background: #FFFFFF;
+    width:100% ;
+    margin-top: 25.938rem;
+    /*background: red;*/
+    justify-content: center;
 }
-.mainBox .mainBoxlist li{
-    float: left;
+.mainBoxlist li{
     height: 6.25rem;
-    background: #FFFFFF;
     width: 100%;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    margin-left: 1.938rem;
+    border-bottom: 1px solid #dde1e3;
 }
 .mainBox .mainBoxlist li p{
-    line-height: 6.25rem;
-    display: inline;
     font-size: 2rem;
     color: #333333;
-    padding-left: 3.813rem;
 }
-.mainBox .mainBoxlist li .line01{
-    height: 1px;
-    width: 100%;
-    background-color: #dde1e3;
-    float: left;
+.mainBox .mainBoxlist li .line04{
+    padding: 0 1.625rem;
+    color: #e1e5e7;
+    font-weight: 100;
 }
-.mainBox .mainBoxlist li .line02{
-    height: 1px;
-    width: 95%;
-    background-color: #dde1e3;
-    float: right;
+.mainBox .mainBoxlist li .optionTit{
+    font-size: 2rem;
+    line-height: 0.701rem;
+    color: #999999;
+    margin-left: 1.62rem;
+}
+/*公共样式结束*/
+
+/*定制样式开始*/
+.mainBox .mainBoxlist .tit{
+    margin-left: 0;
+}
+.mainBox .mainBoxlist .tit p{
+    white-space:nowrap;
+    margin-left: 1.625rem;
 }
 .mainBox .mainBoxlist .tit .line03{
-    position: relative;
-    left: 1.875rem;
-    display: inline-block;
-    vertical-align: baseline;
     width: 0.188rem;
     height: 1.625rem;
     background-color: #5fc0cd;
     border-radius: 0.094rem;
+    margin-left: 1.875rem;
 }
 
-
-.mainBox .mainBoxlist .lab .home p{
+.mainBox .mainBoxlist .lab div{
+    height: 23px;
+    width: 24px;
+    background-image: url("../img/star.png") ;
+}
+.mainBox .mainBoxlist .lab .home{
+    margin-left: 1.62rem;
+}
+.mainBox .mainBoxlist .lab p{
     padding-left: 0.563rem;
 }
-
-.mainBox .mainBoxlist .lab .home div{
-    margin-left: 3.813rem;
-    display: inline-block;
-    width: 24px;
-    height: 23px;
-    background-image: url("../img/star.png");
-    background-repeat: no-repeat;
+.mainBox .mainBoxlist .lab .line04{
+    padding: 0 1.063rem;
 }
 
-.mainBox .mainBoxlist .lab .food p{
-    padding-left: 0.563rem;
-}
-.mainBox .mainBoxlist .lab .food div{
-    margin-left: 3.813rem;
-    display: inline-block;
-    width: 24px;
-    height: 23px;
-    background-image: url("../img/star.png");
+.mainBox .mainBoxlist .workPrice .money{
+    color: #e26163;
+    font-weight: bold;
 }
 
 .mainBox .mainBoxlist .introduce{
-    display: flex;
+    min-height: 6.25rem;
     height: auto;
+    border-bottom: none;
 }
 .mainBox .mainBoxlist .introduce .optionTit{
-    align-self: center;
-    width: 8.125rem;
     white-space:nowrap;
 }
 .mainBox .mainBoxlist .introduce .brief{
-    overflow: hidden;
-    align-self: center;
-    line-height: 2rem;
+    padding-right: 5.5rem;
+    padding-top: 1.188rem;
+    padding-bottom: 1.188rem;
 }
-
+/*定制样式结束*/
 /*内容区域结束*/
 
 /*底部区域开始*/
