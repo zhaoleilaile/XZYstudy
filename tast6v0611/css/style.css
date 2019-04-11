@@ -138,7 +138,7 @@ header .switch .switchsTaff{
 /*中间部分开始*/
 .listBox{
     height: auto;
-    width: 100%;
+    width: auto;
     background-color: #a8a8a8;
     position: relative;
     top: 11rem;
