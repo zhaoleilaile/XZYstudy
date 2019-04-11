@@ -1,0 +1,352 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    height: 100%;
+    width: 100%;
+}
+
+/*顶部开始*/
+header{
+    height: 6rem;
+    width: 100%;
+    background-color: #5fc0cd;
+    z-index: 1000;
+    position: fixed;
+    display: flex !important;
+    align-items:center;
+    justify-content: center;
+    top: 0;
+}
+header .map{
+    position: absolute;
+    right: 2rem;
+}
+header .map div{
+    width: 42px;
+    height: 44px;
+    background: url(../img/sprit.png) 0px 0px no-repeat;
+    zoom: 70%;
+}
+/*header .map img{*/
+    /*width: 4rem;*/
+    /*height: 4rem;*/
+/*}*/
+header .switch{
+    position: relative;
+    width: 17.875rem;
+    height: 4.375rem;
+    background-color: #55a8b3;
+    border-radius: 0.625rem;
+}
+header .switch .switchEmployer{
+    position: absolute;
+    height: 4.375rem;
+    width: 50%;
+    background-color: #55a8b3;
+    border-radius: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #fff;
+}
+header .switch .switchsTaff{
+    position: absolute;
+    height: 4.375rem;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #5fc0cd;
+    right: 0;
+}
+/*顶部结束*/
+
+/*筛选开始*/
+.screenBox{
+    height: 5.063rem;
+    width: 100%;
+    background-color: rgba(225,229,231,0);
+    background-image: linear-gradient(to top, #fff 3%, #e3e7e8 50%, #fff 97%);
+    position: fixed;
+    top:6rem;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.screenBox div{
+    height: 5rem;
+    background: #fff;
+    flex: 1;
+    position: relative;
+}
+.screenBox div select{
+    appearance:none;
+    -webkit-appearance: none;
+    height: 5rem;
+    width: 100%;
+    background: #fff;
+    font-size: 1.75rem;
+    color: #999;
+    border: none;
+    /*padding-left: 4.188rem;*/
+    position: absolute;
+    padding-left: 2.188rem;
+}
+/*.screenBox div img{*/
+    /*position: absolute;*/
+    /*right: 1.2rem;*/
+    /*top:45%;*/
+    /*height: 0.5rem;*/
+    /*width: 0.813rem;*/
+/*}*/
+.screenBox div span{
+    position: absolute;
+    right: 1.2rem;
+    top:45%;
+    height: 26px;
+    width: 16px;
+    background: url(../img/sprit.png) -56px 0px no-repeat;
+    zoom: 70%;
+}
+.screenBox div select option{
+    font-size: 1rem;
+    color: #202020;
+}
+.screenBox div .line{
+    background-image: linear-gradient(to top, #fff 3%, #e3e7e8 50%, #fff 97%);
+    height: 5rem;
+    width: 1px;
+}
+.screenBox .line{
+    width: 100%;
+    height: 1px;
+    background-color: #e1e5e7;
+    position: absolute;
+    bottom: 0;
+}
+/*筛选结束*/
+
+/*中间部分开始*/
+.listBox{
+    height: auto;
+    width: 100%;
+    background-color: #a8a8a8;
+    position: relative;
+    top: 11rem;
+    overflow: scroll;
+}
+.listBox div{
+    height: 11.188rem;
+    background: #fff;
+    width: 100%;
+}
+.listBox div div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.listBox .list01 .listTimeTit{
+    height: 4.063rem;
+}
+/*.listBox .list01 .listTimeTit img{*/
+    /*height: 2rem;*/
+    /*width: 2rem;*/
+    /*position: absolute;*/
+    /*left: 1.875rem;*/
+/*}*/
+.listBox .list01 .listTimeTit span{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 1.875rem;
+    background: url("../img/sprit.png") -123px 0px no-repeat;
+    zoom: 70%;
+}
+.listBox .list01 .listTimeTit p{
+    position: absolute;
+    left: 4.313rem;
+    font-size: 1.5rem;
+    color: #d5d5d5;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 16%;
+}
+.listBox .list01 .listTime{
+    height: 3rem;
+}
+.listBox .list01 .listTime .listTimeYear{
+    font-size: 1.75rem;
+    color: #333;
+    position: absolute;
+    left: 4.5rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 50%;
+}
+.listBox .list01 .listTime .listTimeHour{
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #e63b0e;
+    position: absolute;
+    right: 4.5rem;
+    margin: 0;
+    padding: 0;
+}
+.listBox .list01 .listTime img{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    right: 1rem;
+}
+.listBox .list01 .listMap{
+    height: 4.062rem;
+}
+/*.listBox .list01 .listMap img{*/
+    /*height: 2rem;*/
+    /*width: 2rem;*/
+    /*position: absolute;*/
+    /*left: 1.875rem;*/
+/*}*/
+.listBox .list01 .listMap span{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: 1.875rem;
+    background: url("../img/sprit.png") -161px 0px no-repeat;
+    zoom: 70%;
+}
+.listBox .list01 .listMap p{
+    position: absolute;
+    left: 4.313rem;
+    font-size: 1.625rem;
+    color: #d5d5d5;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 30%;
+}
+.listBox .list01 .line{
+    width: 100%;
+    height: 1px;
+    background-color: #e1e5e7;
+}
+/*中间部分结束*/
+
+/*底部导航开始*/
+.footer{
+    height: 6.19rem;
+    width: 100%;
+    background-color: #f8fafb;
+    position: fixed;
+    bottom: 0;
+}
+.footer .line{
+    width: 100%;
+    height: 1px;
+    background-color: #e1e5e7;
+    position: absolute;
+    top: 0;
+}
+.footer .footerHome{
+    height: 6.19rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10.313rem;
+}
+.footer .footerHome span{
+    position: absolute;
+    height: 40px;
+    width: 45px;
+    background: url(../img/sprit.png) -198px 0px no-repeat;
+    top: 0.75rem;
+    zoom: 70%;
+}
+/*.footer .footerHome img{*/
+    /*position: absolute;*/
+    /*height: 3rem;*/
+    /*width: 3rem;*/
+    /*top: 0.75rem;*/
+/*}*/
+.footer .footerHome p{
+    position: absolute;
+    bottom: 0.513rem;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    color: #5fc0cd;
+    white-space: nowrap;
+}
+.footer .footerEdit{
+    width: auto;
+    height: 6.19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/*.footer .footerEdit span{*/
+    /*width: 5.875rem;*/
+    /*height: 5.875rem;*/
+    /*background: url(../img/sprit.png) -260px 0px no-repeat;*/
+    /*background-size: 5.875rem 5.875rem;*/
+    /*position: absolute;*/
+/*}*/
+.footer .footerEdit img{
+    width: 5.875rem;
+    height: 5.875rem;
+    display: block;
+}
+.footer .footerMe{
+    height: 6.19rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10.313rem;
+}
+.footer .footerMe span{
+    position: absolute;
+    height: 40px;
+    width: 45px;
+    background: url(../img/sprit.png) -370px 0px no-repeat;
+    top: 0.75rem;
+    zoom: 70%;
+}
+/*.footer .footerMe img{*/
+    /*position: absolute;*/
+    /*height: 3rem;*/
+    /*width: 3rem;*/
+    /*top: 0.75rem;*/
+/*}*/
+.footer .footerMe p{
+    position: absolute;
+    bottom: 0.513rem;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    color: #999;
+    white-space: nowrap;
+}
+/*底部导航结束*/

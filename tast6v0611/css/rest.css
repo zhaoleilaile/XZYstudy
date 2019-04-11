@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+	font-size: 12px;
+	/*一个页面中大部分文字是12px就在通用里面定义,以后遇到不同的还可以改,减少代码量*/
+}
+
+li{
+	list-style:none;
+	}
+
+img{
+	vertical-align:top;
+	border:none;
+	}
+a{
+	text-decoration: none;
+}
+input{
+	border: none;
+	outline: none;
+	
+}
+header, section, footer, aside, nav, article, figure
+{
+	display: block;
+}
+button{
+	border: 0;
+	background: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
